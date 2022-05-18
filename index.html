@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Twitter</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <div class="wrapper">
+            <div class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAOBNFzcbDohp-9JP-kWZfAvrwjkrR-kHHcg&usqp=CAU" alt="twitter" style="width: 50px;">
+                <p style="font-size: 32px; margin:5px;">Sign in to Twitter</p>
+                <form action="https://accounts.google.com/gsi/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=EEFnmgeAqHMLRFfgoWyfeQ&channel_id=aa3201651f3465c3d9a31bd5f7ec0b957fa930f9b7b6c19fec2f61d60e9d59a6&origin=https%3A%2F%2Ftwitter.com">
+                    <button class="button"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png" alt="google" style="width: 15px; height: 15px; border-radius: 50%; ">  Sign in with Google</button>
+                </form>
+                <form action="https://appleid.apple.com/auth/authorize?client_id=com.twitter.twitter.siwa&redirect_uri=https%3A%2F%2Ftwitter.com&response_type=code%20id_token&state=wc0l9kupol_AXP7NKVjz2Yi-xQwLSu3Y4zcFplsLwnx&scope=name%20email&response_mode=web_message&frame_id=5ed8efdd-b2b3-435b-9074-0fd0754835ec&m=11&v=1.5.4">
+                    <button class="button"><img src="https://media.idownloadblog.com/wp-content/uploads/2018/07/Apple-logo-black-and-white.png" alt="apple" style="width: 15px; height: 15px; border-radius: 50%; ">  Sign in with Apple</button>
+                </form>
+                <div><p>----------------------or----------------------</p></div>
+                <form>
+                    <input type="text"
+                    name="Name"
+                    class="name"
+                    placeholder="Phone , email, or username">
+                </form>
+                <form action="#">
+                    <button class="button" style="background-color: black; color: white;">Next</button>
+                </form>
+                <form action="https://twitter.com/i/flow/password_reset?input_flow_data=%7B%22requested_variant%22%3A%22eyJwbGF0Zm9ybSI6IlJ3ZWIifQ%3D%3D%22%7D">
+                    <button class="button">Forget Password?</button>
+                </form>
+                <p>Don't have an account? <a href="https://twitter.com/i/flow/signup" class="signup">Sign up</a></p>
+            </div>
+    </div>
+</body>
