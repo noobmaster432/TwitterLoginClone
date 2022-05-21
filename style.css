@@ -27,3 +27,6 @@ button:hover
 .signup {
     text-decoration: none;
 }
+.or {
+    display: flex;
+}
